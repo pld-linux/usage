@@ -1,5 +1,5 @@
-Summary:	Set of programs to see which routines in a c-project are used
-Summary(pl):	Zestaw programów do monitorowania wykorzystywanych funkcji w c
+Summary:	Set of programs to see which routines in a C-project are used
+Summary(pl):	Zestaw programów do monitorowania wykorzystywanych funkcji w C
 Name:		usage
 Version:	1.0
 Release:	1
@@ -7,21 +7,21 @@ License:	improve-ware
 Group:		Development/Languages
 Source0:	http://members.lycos.nl/dpruimboom/%{name}.zip
 # Source0-md5:	6318e9bc869d551686ccab0d09fb3667
-BuildRequires:	flex
 URL:		http://members.lycos.nl/dpruimboom/
+BuildRequires:	flex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This set of programs consist of 'usage' that can be used to see which
-routines in a c-project are used and how often and what other routines
+routines in a C-project are used and how often and what other routines
 they call. Then there is the CallTree program, this program uses
-output of the 'usage' program to make a call-tree of the c-project.
+output of the 'usage' program to make a call-tree of the C-project.
 
 %description -l pl
 Zestaw programów s³u¿±cych do monitorowania które funkcje w programach
 C s± u¿ywane i jak czêsto inne funkcje je wywo³uj±. Jest te¿ program
 CallTree, wykorzystuj±cy wyj¶cie z usage do stworzenia drzewa wywo³añ
-w projekcie c.
+w projekcie C.
 
 %prep
 %setup -q -n %{name}
