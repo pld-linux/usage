@@ -1,0 +1,32 @@
+Date: Mon, 18 Aug 2003 08:35:22 -0700
+From: dries <dries@irssystems.nl>
+Subject: Re: redistribution of usage
+In-reply-to: <20030816094411.GA8856@aramin.net>
+To: undefine@aramin.net
+Organization: Integrated Residential Systems
+X-Mailer: KMail [version 1.4]
+X-Virus-Scanned: by AMaViS perl-11
+
+You wrote :
+>  Hi.
+>  I have one question to Your project - usage. I'm working on PLD-linux
+>  distribution and would have this nice program in those distro. Can we
+>  redistribute usage as rpm-packages? spec-file is available
+>  http://cvs.pld-linux.org/cgi-bin/cvsweb/SPECS/usage.spec
+>
+>  PLD-linux home page is http://www.pld-linux.org/
+>  thanks for Your answer.
+>
+>  Andrzej Dopiera³a
+>  undefine@pld-linux.org
+
+Well, of course, i don't know if you've made any  changes to the program, if
+so i would like to hear about those (improvement is good (otherwise it
+wouldn't be improvement)). But your welcome to use-redistribute-modify and
+even abuse the program if you like.
+
+Grtz Dries Pruimboom
+--
+01110111 01110111 01110111 00101110 01110000 01110010
+01110101 01101001 01101101 01100010 01101111 01101111
+01101101 00101110 01110100 01101011    <End of message>
