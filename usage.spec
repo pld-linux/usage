@@ -5,7 +5,8 @@ Version:	1.0
 Release:	1
 License:	improve-ware
 Group:		Development/Languages
-Source0:	http://members.lycos.nl/dpruimboom/%{name}.zip
+# from http://members.lycos.nl/dpruimboom/usage.zip - wget doesn't work
+Source0:	%{name}.zip
 # Source0-md5:	6318e9bc869d551686ccab0d09fb3667
 Source1:	%{name}.redistribution
 URL:		http://members.lycos.nl/dpruimboom/
