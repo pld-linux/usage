@@ -7,6 +7,7 @@ License:	improve-ware
 Group:		Development/Languages
 Source0:	http://members.lycos.nl/dpruimboom/%{name}.zip
 # Source0-md5:	6318e9bc869d551686ccab0d09fb3667
+Source1:	%{name}.redistribution
 URL:		http://members.lycos.nl/dpruimboom/
 BuildRequires:	flex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -38,6 +39,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir}}
 
 install %{name} call_tree/CallTree $RPM_BUILD_ROOT%{_bindir}
 install %{name}.lst $RPM_BUILD_ROOT%{_sysconfdir}
+install %{SOURCE1} $RPM_BUILD_DIR/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,4 +48,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %verify(not md5 size mtime) %config(noreplace) %{_sysconfdir}/%{name}.lst
-%doc Readme
+%doc Readme usage.redistribution
