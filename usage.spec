@@ -11,6 +11,7 @@ Source0:	%{name}.zip
 Source1:	%{name}.redistribution
 URL:		http://members.lycos.nl/dpruimboom/
 BuildRequires:	flex
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
