@@ -49,5 +49,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%verify(not md5 size mtime) %config(noreplace) %{_sysconfdir}/%{name}.lst
+%verify(not md5 mtime size) %config(noreplace) %{_sysconfdir}/%{name}.lst
 %doc Readme usage.redistribution
