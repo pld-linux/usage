@@ -1,5 +1,5 @@
 Summary:	Set of programs to see which routines in a C-project are used
-Summary(pl.UTF-8):   Zestaw programów do monitorowania wykorzystywanych funkcji w C
+Summary(pl.UTF-8):	Zestaw programów do monitorowania wykorzystywanych funkcji w C
 Name:		usage
 Version:	1.0
 Release:	3
